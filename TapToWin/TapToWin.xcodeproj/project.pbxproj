@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05AB0AC81B31DC17008B6962 /* game_over.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05AB0AC71B31DC17008B6962 /* game_over.ttf */; };
+		05DA201C1B30D7200000424E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA201B1B30D7200000424E /* AppDelegate.swift */; };
+		05DA201E1B30D7200000424E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA201D1B30D7200000424E /* ViewController.swift */; };
+		05DA20211B30D7200000424E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05DA201F1B30D7200000424E /* Main.storyboard */; };
+		05DA20231B30D7200000424E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DA20221B30D7200000424E /* Images.xcassets */; };
+		05DA20261B30D7200000424E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DA20241B30D7200000424E /* LaunchScreen.xib */; };
+		05DA20321B30D7200000424E /* TapToWinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA20311B30D7200000424E /* TapToWinTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05DA202C1B30D7200000424E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DA200E1B30D7200000424E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DA20151B30D7200000424E;
+			remoteInfo = TapToWin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AB0AC71B31DC17008B6962 /* game_over.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = game_over.ttf; sourceTree = "<group>"; };
+		05DA20161B30D7200000424E /* TapToWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapToWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DA201A1B30D7200000424E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DA201B1B30D7200000424E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05DA201D1B30D7200000424E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05DA20201B30D7200000424E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05DA20221B30D7200000424E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05DA20251B30D7200000424E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		05DA202B1B30D7200000424E /* TapToWinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapToWinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DA20301B30D7200000424E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DA20311B30D7200000424E /* TapToWinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapToWinTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05DA20131B30D7200000424E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DA20281B30D7200000424E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DA200D1B30D7200000424E = {
+			isa = PBXGroup;
+			children = (
+				05DA20181B30D7200000424E /* TapToWin */,
+				05DA202E1B30D7200000424E /* TapToWinTests */,
+				05DA20171B30D7200000424E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05DA20171B30D7200000424E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DA20161B30D7200000424E /* TapToWin.app */,
+				05DA202B1B30D7200000424E /* TapToWinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05DA20181B30D7200000424E /* TapToWin */ = {
+			isa = PBXGroup;
+			children = (
+				05DA201B1B30D7200000424E /* AppDelegate.swift */,
+				05DA201D1B30D7200000424E /* ViewController.swift */,
+				05DA201F1B30D7200000424E /* Main.storyboard */,
+				05DA20221B30D7200000424E /* Images.xcassets */,
+				05DA20241B30D7200000424E /* LaunchScreen.xib */,
+				05DA20191B30D7200000424E /* Supporting Files */,
+			);
+			path = TapToWin;
+			sourceTree = "<group>";
+		};
+		05DA20191B30D7200000424E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05AB0AC71B31DC17008B6962 /* game_over.ttf */,
+				05DA201A1B30D7200000424E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05DA202E1B30D7200000424E /* TapToWinTests */ = {
+			isa = PBXGroup;
+			children = (
+				05DA20311B30D7200000424E /* TapToWinTests.swift */,
+				05DA202F1B30D7200000424E /* Supporting Files */,
+			);
+			path = TapToWinTests;
+			sourceTree = "<group>";
+		};
+		05DA202F1B30D7200000424E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05DA20301B30D7200000424E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05DA20151B30D7200000424E /* TapToWin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DA20351B30D7200000424E /* Build configuration list for PBXNativeTarget "TapToWin" */;
+			buildPhases = (
+				05DA20121B30D7200000424E /* Sources */,
+				05DA20131B30D7200000424E /* Frameworks */,
+				05DA20141B30D7200000424E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapToWin;
+			productName = TapToWin;
+			productReference = 05DA20161B30D7200000424E /* TapToWin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05DA202A1B30D7200000424E /* TapToWinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DA20381B30D7200000424E /* Build configuration list for PBXNativeTarget "TapToWinTests" */;
+			buildPhases = (
+				05DA20271B30D7200000424E /* Sources */,
+				05DA20281B30D7200000424E /* Frameworks */,
+				05DA20291B30D7200000424E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05DA202D1B30D7200000424E /* PBXTargetDependency */,
+			);
+			name = TapToWinTests;
+			productName = TapToWinTests;
+			productReference = 05DA202B1B30D7200000424E /* TapToWinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05DA200E1B30D7200000424E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mariana Alvarez";
+				TargetAttributes = {
+					05DA20151B30D7200000424E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					05DA202A1B30D7200000424E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 05DA20151B30D7200000424E;
+					};
+				};
+			};
+			buildConfigurationList = 05DA20111B30D7200000424E /* Build configuration list for PBXProject "TapToWin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05DA200D1B30D7200000424E;
+			productRefGroup = 05DA20171B30D7200000424E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05DA20151B30D7200000424E /* TapToWin */,
+				05DA202A1B30D7200000424E /* TapToWinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05DA20141B30D7200000424E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DA20211B30D7200000424E /* Main.storyboard in Resources */,
+				05DA20261B30D7200000424E /* LaunchScreen.xib in Resources */,
+				05AB0AC81B31DC17008B6962 /* game_over.ttf in Resources */,
+				05DA20231B30D7200000424E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DA20291B30D7200000424E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05DA20121B30D7200000424E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DA201E1B30D7200000424E /* ViewController.swift in Sources */,
+				05DA201C1B30D7200000424E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DA20271B30D7200000424E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DA20321B30D7200000424E /* TapToWinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05DA202D1B30D7200000424E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DA20151B30D7200000424E /* TapToWin */;
+			targetProxy = 05DA202C1B30D7200000424E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05DA201F1B30D7200000424E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DA20201B30D7200000424E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05DA20241B30D7200000424E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DA20251B30D7200000424E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05DA20331B30D7200000424E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05DA20341B30D7200000424E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05DA20361B30D7200000424E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapToWin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		05DA20371B30D7200000424E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapToWin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		05DA20391B30D7200000424E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapToWinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapToWin.app/TapToWin";
+			};
+			name = Debug;
+		};
+		05DA203A1B30D7200000424E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapToWinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapToWin.app/TapToWin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05DA20111B30D7200000424E /* Build configuration list for PBXProject "TapToWin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DA20331B30D7200000424E /* Debug */,
+				05DA20341B30D7200000424E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DA20351B30D7200000424E /* Build configuration list for PBXNativeTarget "TapToWin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DA20361B30D7200000424E /* Debug */,
+				05DA20371B30D7200000424E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DA20381B30D7200000424E /* Build configuration list for PBXNativeTarget "TapToWinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DA20391B30D7200000424E /* Debug */,
+				05DA203A1B30D7200000424E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05DA200E1B30D7200000424E /* Project object */;
+}
